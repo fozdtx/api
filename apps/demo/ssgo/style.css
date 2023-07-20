@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    font-family: monospace, Arial, Serif;
+    user-select: none;
+    background-color: #001842;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+nav{
+  
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  padding: 20px;
+  
+}
+#cen{
+  text-align: center;
+}
+#cen input{
+  border: 2px solid dodgerblue;
+  background-color: transparent;
+  padding: 20px;
+  outline: none;
+  font-size: 20px;
+  font-family: monospace;
+  transition: 1s;
+  color: whitesmoke;
+}
+#cen input:hover{
+  
+  border: 5px solid deepskyblue;
+  box-shadow: 0px 0px 10px skyblue;
+  text-shadow: 0px 0px 10px white;
+  font-weight: bold;
+  
+}
+#cen input:focus {
+
+  border: 5px solid deepskyblue;
+  box-shadow: 0px 0px 10px skyblue;
+  text-shadow: 0px 0px 10px white;
+  font-weight: bold;
+
+}
+
+#cen button{
+  background-color: orange;
+  color: white;
+  font-family: monospace;
+  border: 5px solid orange;
+  cursor: pointer;
+  padding: 10px;
+  outline: none;
+  transition: 0.4s;
+}
+#cen button:hover{
+  
+  background-color: orangered;
+  border-color: orangered;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px orange;
+  text-shadow: 0px 0px 10px white;
+  
+}
+#cen button:focus {
+
+  background-color: orangered;
+  border-color: orangered;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px orange;
+  text-shadow: 0px 0px 10px white;
+
+}
